@@ -73,7 +73,6 @@ def delete_user(id):
         print(ex)
         print("********-----------------************")
         return Response(response=json.dumps({"message":"sorry  cannot delete"}),status=500,mimetype="application/json")
-    
 
 
 if __name__=="__main__":
